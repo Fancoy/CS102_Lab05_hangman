@@ -22,11 +22,16 @@ public class ConsoleHangman
 
 		// PROGRAM CODE
 		hangman = new Hangman( new BasicSetup() );
+		HangmanModel hM = new HangmanModel(new BasicSetup());
+		hM.addView(new ConsoleHangmanView());
+
+		hM.tryThis('a');
+		hM.tryThis('b');
+		hM.tryThis('c');
 
 		System.out.println( hangman.getKnownSoFar() );
 
-		// ToDo - allow user to repeatedly enter a letter and tryThis letter
-		//		  then show game status, until gameover. Finally report win/lose.
+
 
 
 		System.out.println( "\nEnd of ConsoleHangman\n" );
