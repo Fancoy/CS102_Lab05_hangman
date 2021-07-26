@@ -1,9 +1,11 @@
-package cs102.ConsoleHangman.src;
+package cs102.GUIHangman.src;
 
 
 
 // BasicSetup
-// David, 2013/4/7
+// David
+
+import cs102.ConsoleHangman.src.IHangmanSetup;
 
 public class BasicSetup implements IHangmanSetup
 {

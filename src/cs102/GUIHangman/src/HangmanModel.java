@@ -1,6 +1,11 @@
-package cs102.ConsoleHangman.src;
+package cs102.GUIHangman.src;
 
 import java.util.*;
+
+import cs102.ConsoleHangman.src.BasicSetup;
+import cs102.ConsoleHangman.src.Hangman;
+import cs102.ConsoleHangman.src.IHangmanSetup;
+import cs102.ConsoleHangman.src.IHangmanView;
 
 
 // HangmanModel - extends hangman adding support for single/multiple views & controllers
@@ -26,7 +31,7 @@ public class HangmanModel extends Hangman
 		return result;
 	}
 
-	@Override
+
 	public void initNewGame()
 	{
 		super.initNewGame();

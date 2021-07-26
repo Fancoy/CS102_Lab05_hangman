@@ -1,6 +1,7 @@
-package cs102.ConsoleHangman.src;
+package cs102.GUIHangman.src;
 
-
+import cs102.ConsoleHangman.src.Hangman;
+import cs102.ConsoleHangman.src.IHangmanView;
 import javax.swing.JPanel;
 // ConsoleHangmanView
 // David, 6/4/2013
